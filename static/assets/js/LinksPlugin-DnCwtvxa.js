@@ -1,2 +1,0 @@
-const __vite__fileDeps=["./LinkInstance-CoUf693F.js","./index-DG0haVY1.js","../css/index-CaXNxjUu.css","./CanvasUtils-CKvPFZhf.js"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
-import{z as i}from"./index-DG0haVY1.js";class o{constructor(){this.id="links"}async getPlugin(t){const{LinkInstance:n}=await i(()=>import("./LinkInstance-CoUf693F.js"),__vite__mapDeps([0,1,2,3]),import.meta.url);return new n(t)}loadOptions(){}needsPlugin(){return!0}}export{o as LinksPlugin};
