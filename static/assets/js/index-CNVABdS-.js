@@ -1,0 +1,2 @@
+const __vite__fileDeps=["./BaseMover-es5XoiuU.js","./index-CNCEsL4D.js","../css/index-CaXNxjUu.css"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
+import{z as o}from"./index-CNCEsL4D.js";async function i(a,e=!0){await a.addMover("base",async()=>{const{BaseMover:r}=await o(()=>import("./BaseMover-es5XoiuU.js"),__vite__mapDeps([0,1,2]),import.meta.url);return new r},e)}export{i as loadBaseMover};

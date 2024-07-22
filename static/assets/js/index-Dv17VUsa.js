@@ -1,0 +1,2 @@
+const __vite__fileDeps=["./ColorUpdater-DlhtXH6e.js","./index-CNCEsL4D.js","../css/index-CaXNxjUu.css"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
+import{z as e}from"./index-CNCEsL4D.js";async function d(r,t=!0){await r.addParticleUpdater("color",async o=>{const{ColorUpdater:a}=await e(()=>import("./ColorUpdater-DlhtXH6e.js"),__vite__mapDeps([0,1,2]),import.meta.url);return new a(o)},t)}export{d as loadColorUpdater};

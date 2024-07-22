@@ -1,0 +1,2 @@
+const __vite__fileDeps=["./ParallaxMover-DAPc8VMl.js","./index-CNCEsL4D.js","../css/index-CaXNxjUu.css"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
+import{z as t}from"./index-CNCEsL4D.js";async function l(a,r=!0){await a.addMover("parallax",async()=>{const{ParallaxMover:o}=await t(()=>import("./ParallaxMover-DAPc8VMl.js"),__vite__mapDeps([0,1,2]),import.meta.url);return new o},r)}export{l as loadParallaxMover};

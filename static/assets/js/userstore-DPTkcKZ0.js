@@ -1,1 +1,0 @@
-import{y as u,q as s}from"./index-CQS2CWJB.js";const m=u("User",()=>{const r=s("https://qylove.xyz/d/imgdata/img/1670558061615.jpg"),a=s(""),t=s(""),o=s("");return{imgSrc:r,apiurl:a,username:t,usersex:o,methods:{reset_imgSrc(e){r.value=e},reset_username(e){t.value=e},reset_usersex(e){o.value=e}}}},{persist:{key:"userStore",storage:sessionStorage,paths:void 0}});export{m as u};
